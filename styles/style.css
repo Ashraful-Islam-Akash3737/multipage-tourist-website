@@ -187,10 +187,12 @@ p{
 .service{
     margin-bottom: 100px;
 }
-.sersice-name{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+.service-name{
+    text-align: center;
+}
+i{
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 .service-list{
     display: grid;
@@ -215,11 +217,10 @@ p{
     text-align: center;
     transition: all 2s ease-in-out 0s;
 }
-i{
-    margin-top: 30px;
-    text-align: center;
-   height: 30px;
+.inner{
+    padding: 0px 20px;
 }
+
 
 
 
