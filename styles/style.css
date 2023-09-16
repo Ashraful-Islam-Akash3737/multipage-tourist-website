@@ -187,7 +187,7 @@ p{
 .service{
     margin-bottom: 100px;
 }
-.service-name{
+.service-name , .destination-name{
     text-align: center;
 }
 i{
@@ -199,7 +199,7 @@ i{
     grid-template-columns: repeat(4,1fr);
     gap: 20px;
 }
-.service-item{
+.service-item {
     background-color: antiquewhite;
     display: flex;
     flex-wrap: wrap;
